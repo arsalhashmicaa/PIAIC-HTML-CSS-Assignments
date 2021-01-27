@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+
+</head>
+<style>
+    .center {
+     text-align: center
+    }
+    </style>
+
+<body>
+  <h1>Main Heading</h1>
+  <p>Paragraph - anything within the body of a webpage is displayed in the browser window</p>
+  <h2>Sub- Heading</h2>
+  <p>Paragraph - many long articlas have sub headings so to help you to follow the strcture of what is being written. there may even be Sub-Sub-headings</p>
+  <h2>Another sub Heading</h2>
+  <p>Paragraph - Here you can see another sub heading</p>
+<h1 class="center">Chapter 2 Tags</h1>
+<br>
+<p class="center">"< head> < /head>","< title>< /title>","< body>< /body>","< h1>< /h1>",<br>"< h2>< /h2>,"< p>< /p>""</p>
+<p class="center">Opening tag : < > </p>
+<p class="center">Closing tag : < /> </p>
+</body>
+</html>
