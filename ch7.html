@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+
+</head>
+<style>
+    .center {
+     text-align: center
+    }
+    </style>
+
+<body>
+  <h1>Chapter # 7 - Forms</h1>
+  
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email">
+<br>
+<br>
+<label for="status">How did you hear about us?</label>
+
+<select name="status" id="status">
+  <option value="yahoo">Yahoo</option>
+  <option value="google">Google</option>
+  <option value="facebook">Facebook</option>
+  
+</select>
+
+<p>Would you visit again?</p>
+    <input type="radio" id="male" name="visit" value="Yes">
+  <label for="male">Yes</label>
+  <input type="radio" id="female" name="visit" value="No">
+  <label for="female">No</label>
+  <input type="radio" id="other" name="visit" value="Maybe">
+  <label for="other">Maybe</label>
+
+<br>
+<p>Comments:</p>
+<textarea name="comment" rows="6" form="usrform">Enter text here...</textarea>
+<br>
+
+
+  <input type="checkbox" id="submit" name="submit" value="submit">
+  <label for="submit"> Sign me up for email updates</label><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
